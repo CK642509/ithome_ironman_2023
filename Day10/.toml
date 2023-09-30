@@ -1,0 +1,5 @@
+title = "TOML Example"
+
+[owner]
+ADMIN_EMAIL = "admin@example.com"
+APP_NAME = "CoolApp"

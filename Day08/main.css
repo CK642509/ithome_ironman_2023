@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .clearfix {
+    clear: both;
+  }
+  
+  .container {
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+  
+  /* Navigation */
+  
+  #topbar {
+    background-color: #274358;
+    width: 100%;
+    position: fixed; 
+  }
+  
+  
+  #nav-logo {
+    float: left;
+  }
+  
+  section, #menu a {
+  /*   border: 2px solid red; */
+  }
+  
+  #menu {
+    float: right;
+  }
+  
+  #menu a {
+    color: white;
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  #menu a:hover {
+    background-color: #1f1f7a;
+  }
+  
+  #banner {
+    background-image: url('https://picsum.photos/1170/450?image=1067');
+    height: 460px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Main Content */
+  
+  main {
+    padding-top: 40px;
+  }
+  
+  .city {
+    margin: 30px;
+  /*   background-color: blue; */
+  }
+  
+  .city:hover {
+    background-color: #eee;
+  }
+  
+  #cities {
+  /*   background-color: yellow; */
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .city-photo {
+    display: block; /* it only works with block elements! */
+    margin: 0 auto;
+    width: 100%;
+  }
+  
